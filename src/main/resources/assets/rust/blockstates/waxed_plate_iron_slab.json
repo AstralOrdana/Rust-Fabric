@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rust:block/plate_iron_slab"
+    },
+    "type=double": {
+      "model": "rust:block/plate_iron"
+    },
+    "type=top": {
+      "model": "rust:block/plate_iron_slab_top"
+    }
+  }
+}

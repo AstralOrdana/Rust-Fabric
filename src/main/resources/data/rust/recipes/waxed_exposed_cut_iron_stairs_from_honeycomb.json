@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "waxed_cut_iron_stairs",
+  "ingredients": [
+    {
+      "item": "rust:exposed_cut_iron_stairs"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "rust:waxed_exposed_cut_iron_stairs"
+  }
+}

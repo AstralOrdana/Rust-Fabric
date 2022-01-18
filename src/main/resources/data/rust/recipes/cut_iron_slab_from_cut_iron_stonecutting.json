@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "rust:cut_iron"
+  },
+  "result": "rust:cut_iron_slab",
+  "count": 2
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "rust:rusted_plate_iron"
+  },
+  "result": "rust:rusted_cut_iron_stairs",
+  "count": 1
+}

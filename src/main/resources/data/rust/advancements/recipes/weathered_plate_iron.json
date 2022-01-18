@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rust:weathered_cut_iron",
+      "rust:weathered_cut_iron_from_weathered_plate_iron_stonecutting",
+      "rust:weathered_cut_iron_slab_from_weathered_plate_iron_stonecutting",
+      "rust:weathered_cut_iron_stairs_from_weathered_plate_iron_stonecutting",
+      "rust:weathered_plate_iron_slab",
+      "rust:weathered_plate_iron_slab_from_stonecutting",
+      "rust:weathered_plate_iron_stairs",
+      "rust:weathered_plate_iron_stairs_from_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_copper_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rust:weathered_plate_iron"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rust:weathered_cut_iron"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_block",
+      "has_the_recipe"
+    ]
+  ]
+}

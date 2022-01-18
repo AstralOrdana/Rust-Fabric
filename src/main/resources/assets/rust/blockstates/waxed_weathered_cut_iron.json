@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rust:block/weathered_cut_iron"
+    }
+  }
+}

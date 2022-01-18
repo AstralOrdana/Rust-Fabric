@@ -1,0 +1,64 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rust:waxed_plate_iron_from_honeycomb",
+      "rust:waxed_plate_iron_slab_from_honeycomb",
+      "rust:waxed_plate_iron_stairs_from_honeycomb",
+
+      "rust:waxed_exposed_plate_iron_from_honeycomb",
+      "rust:waxed_exposed_plate_iron_stairs_from_honeycomb",
+      "rust:waxed_exposed_plate_iron_slab_from_honeycomb",
+
+      "rust:waxed_weathered_plate_iron_from_honeycomb",
+      "rust:waxed_weathered_plate_iron_stairs_from_honeycomb",
+      "rust:waxed_weathered_plate_iron_slab_from_honeycomb",
+
+      "rust:waxed_rusted_plate_iron_from_honeycomb",
+      "rust:waxed_rusted_plate_iron_stairs_from_honeycomb",
+      "rust:waxed_rusted_plate_iron_slab_from_honeycomb",
+
+      "rust:waxed_cut_iron_from_honeycomb",
+      "rust:waxed_cut_iron_slab_from_honeycomb",
+      "rust:waxed_cut_iron_stairs_from_honeycomb",
+
+      "rust:waxed_exposed_cut_iron_from_honeycomb",
+      "rust:waxed_exposed_cut_iron_stairs_from_honeycomb",
+      "rust:waxed_exposed_cut_iron_slab_from_honeycomb",
+
+      "rust:waxed_weathered_cut_iron_from_honeycomb",
+      "rust:waxed_weathered_cut_iron_stairs_from_honeycomb",
+      "rust:waxed_weathered_cut_iron_slab_from_honeycomb",
+
+      "rust:waxed_rusted_cut_iron_from_honeycomb",
+      "rust:waxed_rusted_cut_iron_stairs_from_honeycomb",
+      "rust:waxed_rusted_cut_iron_slab_from_honeycomb"
+    ]
+  },
+  "criteria": {
+    "has_copper_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:cut_copper"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_block",
+      "has_the_recipe"
+    ]
+  ]
+}

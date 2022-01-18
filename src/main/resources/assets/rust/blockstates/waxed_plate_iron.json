@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rust:block/plate_iron"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "waxed_plate_iron_stairs",
+  "ingredients": [
+    {
+      "item": "rust:plate_iron_stairs"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "rust:waxed_plate_iron_stairs"
+  }
+}

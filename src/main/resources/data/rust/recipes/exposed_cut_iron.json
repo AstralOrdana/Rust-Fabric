@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "rust:exposed_plate_iron"
+    }
+  },
+  "result": {
+    "item": "rust:exposed_cut_iron",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rust:block/weathered_plate_iron"
+    }
+  }
+}

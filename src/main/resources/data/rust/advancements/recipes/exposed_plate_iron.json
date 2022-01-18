@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rust:exposed_cut_iron",
+      "rust:exposed_cut_iron_from_exposed_plate_iron_stonecutting",
+      "rust:exposed_cut_iron_slab_from_exposed_plate_iron_stonecutting",
+      "rust:exposed_cut_iron_stairs_from_exposed_plate_iron_stonecutting",
+      "rust:exposed_plate_iron_slab",
+      "rust:exposed_plate_iron_slab_from_stonecutting",
+      "rust:exposed_plate_iron_stairs",
+      "rust:exposed_plate_iron_stairs_from_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_copper_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rust:exposed_plate_iron"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rust:exposed_cut_iron"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_block",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "waxed_cut_iron_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rust:waxed_cut_iron"
+    }
+  },
+  "result": {
+    "item": "rust:waxed_cut_iron_stairs",
+    "count": 4
+  }
+}

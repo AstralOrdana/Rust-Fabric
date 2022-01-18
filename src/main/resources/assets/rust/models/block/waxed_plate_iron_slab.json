@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rust:block/plate_iron",
+    "top": "rust:block/plate_iron",
+    "side": "rust:block/plate_iron"
+  }
+}
