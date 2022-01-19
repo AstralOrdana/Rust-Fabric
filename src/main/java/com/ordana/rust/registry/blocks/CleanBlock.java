@@ -21,7 +21,7 @@ public class CleanBlock extends RustableBlock{
             }
             if (world.getBlockState(pos.offset(direction)).isOf(Blocks.BUBBLE_COLUMN)) {
                 float f = 0.06f;
-                if (random.nextFloat() < 0.06f) {
+                if (random.nextFloat() > 0.06f) {
                     this.tryDegrade(state, world, pos, random);
                 }
             }

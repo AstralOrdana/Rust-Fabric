@@ -21,7 +21,7 @@ public class WeatheredBlock extends ExposedBlock{
             }
             if (world.getBlockState(pos.offset(direction)).isOf(Blocks.BUBBLE_COLUMN)) {
                 float f = 0.07f;
-                if (random.nextFloat() < 0.07f) {
+                if (random.nextFloat() > 0.07f) {
                     this.tryDegrade(state, world, pos, random);
                 }
             }

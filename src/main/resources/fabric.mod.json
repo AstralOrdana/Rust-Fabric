@@ -6,7 +6,8 @@
   "name": "Rust",
   "description": "This Mod adds Rusted variants for Iron blocks.",
   "authors": [
-    "Ordana"
+    "Ordana",
+    "keybounce"
   ],
   "contact": {
     "homepage": "",
